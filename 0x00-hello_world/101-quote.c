@@ -11,5 +11,5 @@ int main (void)
 
 	fputs(pStr, stdout);
 	fputs("\n", stdout);
-	return (1);
+	return(1);
 }
