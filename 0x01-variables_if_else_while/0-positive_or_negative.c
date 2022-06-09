@@ -5,7 +5,7 @@
  *main - main block
  *Description: assign random number to the variable n and prints out
  *based on a condition anytime executed
- *Return : always 0
+ *Return : 0
  */
 int main(void)
 {
