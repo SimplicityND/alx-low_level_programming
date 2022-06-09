@@ -2,7 +2,8 @@
 #include <time.h>
 #include <stdio.h>
 /**
- *main -> assign random number to the variable n and prints out
+ *main - main block
+ *Description: assign random number to the variable n and prints out
  *based on a condition anytime executed
  *Return : always 0
  */
