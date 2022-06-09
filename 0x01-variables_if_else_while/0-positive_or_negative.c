@@ -4,7 +4,7 @@
 /**
  *main - main block
  *Description: assign random number to the variable n and prints out
- *based on a condition anytime executed
+ *and f it is positive, negative, or zero
  *Return : 0
  */
 int main(void)
