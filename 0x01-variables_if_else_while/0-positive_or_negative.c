@@ -2,11 +2,14 @@
 #include <time.h>
 #include <stdio.h>
 /**
- *main - main block
+ *main - Entry point
+ *
  *Description: assign random number to the variable n and prints out
  *and f it is positive, negative, or zero
- *Return : 0
+ *
+ *Return : 0 (success)
  */
+
 int main(void)
 {
 	int n;
