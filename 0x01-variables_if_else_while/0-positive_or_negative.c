@@ -11,6 +11,9 @@
  */
 
 int main(void)
+/**
+ * print the variabe n
+ */
 {
 	int n;
 
