@@ -2,18 +2,12 @@
 #include <time.h>
 #include <stdio.h>
 /**
- *main - Entry point
- *
- *Description: assign random number to the variable n and prints out
- *and f it is positive, negative, or zero
- *
- *Return : 0 (success)
+ * main - Entry point
+ * Description: assign random number to the variable n and prints out
+ * and f it is positive, negative, or zero
+ * Return : 0
  */
-
 int main(void)
-/**
- * print the variabe n
- */
 {
 	int n;
 
@@ -25,5 +19,6 @@ int main(void)
 		printf("%d is zero\n", n);
 	if (n < 0)
 		printf("%d is negative\n", n);
+	
 	return (0);
 }
