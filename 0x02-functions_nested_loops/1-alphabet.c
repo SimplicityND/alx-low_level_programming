@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  * main -> prints the lowercase alphabets
  * Return: always 0 (Success)
