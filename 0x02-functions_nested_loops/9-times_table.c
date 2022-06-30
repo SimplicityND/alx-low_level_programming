@@ -14,7 +14,7 @@ int rep;
 	for (a <= 9; b = 0; b <= 9)
 	{
 		rep = a * b;
-		if (b == -1)
+		if (b == 0)
 		{
 			_putchar('0' + rep);
 		}
