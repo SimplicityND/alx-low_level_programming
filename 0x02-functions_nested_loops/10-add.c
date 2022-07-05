@@ -9,8 +9,9 @@ int main(void)
 {
 	int a;
 	int b;
+while
 
-	int add(a + b);
+	add = ('a' + 'b');
 	{
 	return (add);
 	}
