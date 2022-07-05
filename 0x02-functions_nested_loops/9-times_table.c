@@ -16,7 +16,7 @@ while (x <= 9)
 	y = 0;
 	while (y <= 9)
 	{
-		z = a * b;
+		z = x * y;
 		if (y == 0)
 		{
 			_putchar('0' + z);
