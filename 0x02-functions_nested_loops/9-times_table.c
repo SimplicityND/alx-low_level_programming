@@ -8,34 +8,39 @@
 void times_table(void)
 {
 
-int a = 0;
-int b;
-int rep;
-	for (a <= 9; b = 0; b <= 9)
+int x = 0;
+int y;
+int z;
+while (x <= 9)
+{
+	y = 0;
+	while (y <= 9)
 	{
-		rep = a * b;
-		if (b == 0)
+		z = a * b;
+		if (y == 0)
 		{
-			_putchar('0' + rep);
+			_putchar('0' + z);
 		}
-		else if (rep < 10)
+		else if (z < 10)
 		{
 			_putchar(' ');
-			_putchar('0' + rep);
+			_putchar('0' + z);
 		}
 		else
 		{
-			_putchar('0' + rep / 10);
-			_putchar('0' + rep % 10);
+			_putchar('0' + z / 10);
+			_putchar('0' + z % 10);
 		}
 
-		if (b < 9)
+		if (y < 9)
 		{
 			_putchar(',');
 			_putchar(' ');
 		}
-		b++;
+		y++;
 	}
 	_putchar('\n');
-	a++;
+	x++;
+}
+
 }
