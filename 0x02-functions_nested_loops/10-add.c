@@ -1,14 +1,12 @@
 #include "main.h"
-
 /**
  * add - returns the sum of its parameters
- * Return: Always 0.
+ * @num1: int number
+ * @num2: int number
+ * Return: Always 0
  */
 
-	int a;
-	int b;
-	
-	int add(int a, int b);
+int add(int num1, int num2)
 {
-	return (a + b);
+	return (num1 + num2);
 }
